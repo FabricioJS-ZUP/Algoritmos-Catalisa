@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
-Grupo 2: Adrizia Silva da Paixao, Fabricio John Sullivan, Jaqueline Sobral
+Grupo 2: Adrizia da Paixao, Fabricio John Sullivan, Jaqueline Sobral
 Algoritmo escolhido:  InsertionSort
 dia: 10/12/2024
 */
