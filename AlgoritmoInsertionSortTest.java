@@ -1,5 +1,7 @@
+import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 
 public class AlgoritmoInsertionSortTest {
@@ -41,7 +43,7 @@ public class AlgoritmoInsertionSortTest {
     }
 
     @Test
-    public void tesrOrdenarNomesJaOrdenados(){
+    public void testOrdenarNomesJaOrdenados(){
         String[] nomes = {"Jaqueline", "Fabricio", "Adrizia", "Ana", "Danilo"};
         String[] corrigido = {"Ana", "Adrizia", "Danilo", "Fabricio", "Jaquelina"};
 
@@ -52,6 +54,5 @@ public class AlgoritmoInsertionSortTest {
     private void assertArrayEquals(String[] corrigido, String[] nomes, String s) {
 
     }
-    
 
 }

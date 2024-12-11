@@ -1,9 +1,13 @@
 import java.util.Scanner;
+
+
 /*
 Grupo 2: Adrizia da Paixao, Fabricio John Sullivan, Jaqueline Sobral
 Algoritmo escolhido:  InsertionSort
 dia: 10/12/2024
 */
+
+
 public class AlgoritmoInsertionSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,10 +23,7 @@ public class AlgoritmoInsertionSort {
         for (int i = 0; i < quantidade; i++) {
             nomes[i] = scanner.nextLine();
         }
-//-----------------------------------------------------------
-        //Ordena os nomes usando o metodo ordenarNomes
-        ordenarNomes(nomes);
-//-----------------------------------------------------------
+
         // Exibe os nomes ordenados
         System.out.println("Nomes em ordem alfabética:");
         for (int i = 0; i < nomes.length; i++) {
@@ -35,7 +36,7 @@ public class AlgoritmoInsertionSort {
             }
         }
     }
-//------------------------------------------------------------
+
     // Metodo para ordenar os nomes usando o algoritmo Insertion Sort
     public static void ordenarNomes(String[] nomes) {
 
@@ -52,5 +53,4 @@ public class AlgoritmoInsertionSort {
             nomes[j + 1] = atual;
         }
     }
-    //----------------------------------------------------------
 }
